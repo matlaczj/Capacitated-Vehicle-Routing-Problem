@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane fx:id="mainPane" dividerPositions="0.7" prefHeight="606.0" prefWidth="494.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aisd.proj2.proj.GUIWindowController">
+   <items>
+      <Pane prefHeight="200.0" prefWidth="191.0" />
+      <AnchorPane prefHeight="604.0" prefWidth="289.0">
+         <children>
+            <VBox layoutX="11.0" layoutY="13.0" prefHeight="580.0" prefWidth="276.0">
+               <children>
+                  <TextArea fx:id="mapPath" prefHeight="29.0" prefWidth="276.0" promptText="wczytaj mape" />
+                  <Region layoutX="10.0" layoutY="268.0" prefHeight="10.0" prefWidth="276.0" />
+                  <HBox prefHeight="32.0" prefWidth="276.0">
+                     <children>
+                        <Button fx:id="chooseMap" mnemonicParsing="false" onAction="#actionChooseMap" text="Wybierz" />
+                        <Region prefHeight="10.0" prefWidth="100.0" />
+                        <Button fx:id="loadMap" mnemonicParsing="false" onAction="#actionLoadMap" text="Wczytaj" />
+                     </children>
+                  </HBox>
+                  <Region layoutX="10.0" layoutY="52.0" prefHeight="10.0" prefWidth="276.0" />
+                  <TextArea fx:id="patientsPath" layoutX="10.0" layoutY="10.0" prefHeight="29.0" prefWidth="276.0" promptText="wczytaj pacjentów" />
+                  <Region layoutX="10.0" layoutY="52.0" prefHeight="10.0" prefWidth="276.0" />
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="choosePatients" mnemonicParsing="false" onAction="#actionChoosePatients" text="Wybierz" />
+                        <Region prefHeight="15.0" prefWidth="100.0" />
+                        <Button fx:id="loadPatients" mnemonicParsing="false" onAction="#actionLoadPatients" text="Wczytaj" />
+                     </children>
+                  </HBox>
+                  <Label text="LIsta pacjentów (id, wsp.x, wsp. y)">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ListView fx:id="patientsList" onMouseClicked="#actionOnClickedMouse" prefHeight="216.0" prefWidth="276.0" />
+                  <Button fx:id="hidePatientDistr" mnemonicParsing="false" onAction="#actionHidePatientDistr" text="Ukryj ścieżki pacjentów" />
+                  <Region prefHeight="39.0" prefWidth="276.0" />
+                  <HBox prefHeight="20.0" prefWidth="276.0">
+                     <children>
+                        <Label text="wsp X" />
+                        <Region prefHeight="16.0" prefWidth="103.0" />
+                        <Label layoutX="10.0" layoutY="10.0" text="wsp Y" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="35.0" prefWidth="276.0">
+                     <children>
+                        <TextArea fx:id="X" prefHeight="29.0" prefWidth="276.0" promptText="wsp X" />
+                        <Region prefHeight="200.0" prefWidth="150.0" />
+                        <TextArea fx:id="Y" layoutX="10.0" layoutY="10.0" prefHeight="29.0" prefWidth="276.0" promptText="wsp Y" />
+                     </children>
+                  </HBox>
+                  <Region prefHeight="10.0" prefWidth="276.0" />
+                  <Button fx:id="enterPatient" mnemonicParsing="false" onAction="#actionEnterPatient" text="Wczytaj pacjenta" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </items>
+</SplitPane>

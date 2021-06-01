@@ -1,0 +1,17 @@
+# Szpitale (id | nazwa | wsp. x | wsp. y | Liczba łóżek | Liczba wolnych łóżek)
+1 | Szpital Wojewódzki nr 997 | 0 | 0 | 1000 | 100
+2 | Krakowski Szpital Kliniczny | 3 | 3 | 999 | 99
+3 | Pierwszy Szpital im. Prezesa RP | -2 | 3 | 99 | 0
+4 | Drugi Szpital im. Naczelnika RP | 1 | 6 | 70 | 1
+5 | Trzeci Szpital im. Króla RP | 3 | 0 | 900 | 0
+6 | LMAO | -2 | 6 | 900 | 800
+7 | NWM | 0 | 2 | 2 | 1
+8 | NWMJUZ | 0 | 8 | 900 | 3
+
+# Obiekty (id | nazwa | wsp. x | wsp. y)
+
+# Drogi (id | id_szpitala | id_szpitala | odległość)
+1 | 1 | 2 | 700
+2 | 3 | 4 | 550
+3 | 5 | 6 | 800
+4 | 7 | 8 | 300

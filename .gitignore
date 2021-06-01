@@ -1,0 +1,27 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Txt file
+
+# Package Files #
+*.jar
+*.zip
+*.tar.gz
+*.rar
+
+# IntelliJ
+out/
+.idea/
+
+# Mac
+.DS_Store
+
+# Maven
+target/
+
+# Other
+*.iml
+
