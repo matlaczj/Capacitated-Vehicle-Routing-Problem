@@ -16,7 +16,6 @@ This is a program designed to address the optimal distribution of patients, taki
 - [Usage](#usage)
 - [Technology Stack](#technology-stack)
 - [Program Structure](#program-structure)
-- [File Structure](#file-structure)
 - [Contributing](#contributing)
 - [Input Format](#input-format)
 
@@ -63,34 +62,6 @@ For a detailed guide on program functionality and implementation, refer to the t
 ## Program Structure
 
 The program is structured into classes, each responsible for specific tasks. Class diagrams are provided in the Implementation Specification.
-
-## File Structure
-
-```
-/uber-heals
-|-- functional-specification.md
-|-- implementation-specification.md
-|-- uber-heals.jar
-|-- src
-|   |-- com
-|       |-- yourcompany
-|           |-- uberheals
-|               |-- Main.java
-|               |-- ...
-|-- test
-|   |-- com
-|       |-- yourcompany
-|           |-- uberheals
-|               |-- TestMain.java
-|               |-- ...
-|-- input-files
-|   |-- map.txt
-|   |-- patients.txt
-|-- logs
-|   |-- log_file.txt
-|-- README.md
-|-- .gitignore
-```
 
 ## Contributing
 
