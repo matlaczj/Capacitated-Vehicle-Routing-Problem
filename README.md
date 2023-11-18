@@ -1,6 +1,8 @@
 # Capacitated Vehicle Routing Problem
 
-<img src="https://th.bing.com/th/id/OIG.QvzpFno3B2GxRQqceiGY?pid=ImgGn" width="300" height="300" style="display: block; margin: auto;">
+<p align="center">
+  <img src="capacitated-vehicle-routing-problem.png" alt="Logo" width="400"/>
+</p>
 
 ## Overview
 
