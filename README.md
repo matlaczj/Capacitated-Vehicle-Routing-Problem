@@ -1,7 +1,7 @@
 # Capacitated Vehicle Routing Problem
 
 <p align="center">
-  <img src="capacitated-vehicle-routing-problem.png" alt="Logo" width="400"/>
+  <img src="logo.png" alt="Logo" width="400"/>
 </p>
 
 ## Overview
